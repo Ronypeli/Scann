@@ -1,0 +1,17 @@
+{
+  "name": "WebScan - Escáner Gratis",
+  "short_name": "WebScan",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#00adb5",
+  "description": "Escáner de documentos PWA gratuito, sin publicidad y con extracción de texto OCR.",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2970/2970785.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
