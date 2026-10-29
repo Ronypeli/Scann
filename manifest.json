@@ -1,23 +1,17 @@
 {
+  "id": "./",
   "name": "WebScan - Escáner Gratis",
   "short_name": "WebScan",
-  "start_url": "./index.html",
+  "description": "Escáner de documentos gratuito con mejora de imagen, extracción de texto y exportación a PDF.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
   "background_color": "#121212",
   "theme_color": "#00adb5",
-  "description": "Escáner de documentos PWA gratuito, sin publicidad y con extracción de texto OCR.",
   "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
   ]
 }
